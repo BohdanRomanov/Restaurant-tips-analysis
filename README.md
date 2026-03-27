@@ -1,7 +1,7 @@
-# Sales Analysis Project
+# Restaurant Tips Analysis
 
 ## Overview
-This project analyzes restaurant sales data using Python.
+This project analyzes restaurant tipping data using Python.
 
 ## Tools Used
 - Python
@@ -16,11 +16,24 @@ This project analyzes restaurant sales data using Python.
 
 ## Key Insights
 - Average bill is higher on weekends
-- Smokers spend slightly more
-- Females tip a higher percentage than males
+- Smokers tend to spend slightly more
+- Tips increase with total bill amount
 - Tip percentage is lowest on Saturday
+- Females tip a higher percentage than males
 
-## Files
-- analysis.py — main analysis script
-- tips.csv — dataset
-- charts — visualizations of results
+## Visualizations
+
+### Average Bill by Day
+![Chart](chart.png)
+
+### Smokers vs Non-Smokers
+![Chart](chart_smoker.png)
+
+### Total Bill vs Tip
+![Chart](chart_scatter.png)
+
+### Tip Percentage by Day
+![Chart](chart_tip_percent.png)
+
+### Tip Percentage by Gender
+![Chart](chart_gender_tip.png)
